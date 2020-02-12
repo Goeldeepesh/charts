@@ -5,10 +5,11 @@ categories:
 - KeyValue
 - Database
 questions:
-- varibale: postgresqlDataDir
+- variable: postgresqlDataDir
   default: "/var/lib/pgsql/"
   required: true
   type: string
+  label: Default Data Dir
   group: "Postgresql Settings"
 - variable: persistence.enabled
   default: false
